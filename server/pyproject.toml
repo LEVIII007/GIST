@@ -1,0 +1,39 @@
+[project]
+name = "server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aerich[toml]>=0.8.1",
+    "asyncpg>=0.30.0",
+    "bcrypt>=4.2.1",
+    "beautifulsoup4>=4.13.3",
+    "black>=25.1.0",
+    "fastapi-mail>=1.4.2",
+    "fastapi[standard]>=0.115.8",
+    "langfuse>=2.60.3",
+    "langsmith>=0.3.11",
+    "neomodel>=5.4.3",
+    "nylas>=6.7.0",
+    "openai>=1.64.0",
+    "pydantic-settings>=2.7.1",
+    "python-dotenv>=1.0.1",
+    "python-jose[cryptography]>=3.4.0",
+    "scikit-learn>=1.6.1",
+    "sse-starlette>=2.2.1",
+    "tortoise-orm>=0.24.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.23.5",
+]
+
+[tool.aerich]
+tortoise_orm = "src.config.settings.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
+
+
