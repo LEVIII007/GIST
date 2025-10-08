@@ -20,6 +20,18 @@ The goal of Gist is to reduce cognitive overload and make sure daily life task m
 
 ![Gist thumbnail](web/public/logo.png)
 
+<p align="center">
+  <a href="https://drive.google.com/file/d/1VZ3eaXL-kjHoLBYVNUKVfdW2HwVsotiA/view?usp=drive_link" target="_blank">
+    <img src="https://github.com/LEVIII007/GIST/blob/main/web/public/gist.png" 
+         alt="Gist Demo Video" width="600"/>
+  </a>
+</p>
+
+<p align="center">
+  ▶️ <b><a href="https://drive.google.com/file/d/1VZ3eaXL-kjHoLBYVNUKVfdW2HwVsotiA/view?usp=drive_link" target="_blank">
+  Watch the demo</a></b>
+</p>
+
 
 ## What is Gist?
 
