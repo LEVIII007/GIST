@@ -3,3 +3,5 @@
 *.csv
 *.txt
 
+config.bat
+node_modules
